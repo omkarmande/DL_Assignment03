@@ -31,11 +31,11 @@ Uses the [Dakshina Dataset](https://github.com/google-research-datasets/dakshina
 ## Project Structure
 transliteration-project/\
 ├── notebooks/\
-│└── da6401-a3.ipynb # Complete training and analysis notebook\
+ │└── da6401-a3.ipynb # Complete training and analysis notebook\
 ├── predictions_attention/ # Attention model predictions\
-│└── test_predictions.txt # Format: input,prediction,target\
+ │└── test_predictions.txt # Format: input,prediction,target\
 ├── predictions_vanilla/ # Vanilla model predictions\
-|└── test_predictions.txt\
+ |└── test_predictions.txt\
 ├── attention_train.py # Attention model training script\
 ├── vanilla_train.py # Vanilla model training script\
 └── README.md
