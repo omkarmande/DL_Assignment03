@@ -31,14 +31,14 @@ Uses the [Dakshina Dataset](https://github.com/google-research-datasets/dakshina
 ## Project Structure
 transliteration-project/\
 ├── notebooks/\
-│ └── Transliteration_Analysis.ipynb # Complete training and analysis notebook\
+│└── da6401-a3.ipynb # Complete training and analysis notebook\
 ├── predictions_attention/ # Attention model predictions\
-│ └── test_predictions.txt # Format: input<TAB>prediction<TAB>target\
+│└── test_predictions.txt # Format: input,prediction,target\
 ├── predictions_vanilla/ # Vanilla model predictions\
-│ └── test_predictions.txt\
-├── attention_train.py # Attention model training script (direct code)\
-├── vanilla_train.py # Vanilla model training script (direct code)\
-└── README.md\
+|└── test_predictions.txt\
+├── attention_train.py # Attention model training script\
+├── vanilla_train.py # Vanilla model training script\
+└── README.md
 
 ## Key Features
 - **Ready-to-Run Scripts**:
