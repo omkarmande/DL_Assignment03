@@ -66,7 +66,7 @@ Running the training scripts will start the sweeps on your Wandb Account.\
 You have to add your Wandb Key whereever mentioned in the code.\
 This will log necessary data and accuracies to Wandb, where you can visualize and analyze the model behaviour.
 
-### Authon
+### Author
 
 Omkar Mande CS24M028
 
