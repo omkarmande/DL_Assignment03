@@ -28,16 +28,7 @@ Uses the [Dakshina Dataset](https://github.com/google-research-datasets/dakshina
 
 
 ## Project Structure
-transliteration-project/
-├── notebooks/
-│ └── Transliteration_Analysis.ipynb # Complete training and analysis notebook
-├── predictions_attention/ # Attention model predictions
-│ └── test_predictions.txt # Format: input<TAB>prediction<TAB>target
-├── predictions_vanilla/ # Vanilla model predictions
-│ └── test_predictions.txt
-├── attention_train.py # Attention model training script (direct code)
-├── vanilla_train.py # Vanilla model training script (direct code)
-└── README.md
+<pre lang="markdown"> ## Project Structure ``` transliteration-project/ ├── notebooks/ │ └── Transliteration_Analysis.ipynb # Complete training and analysis notebook ├── predictions_attention/ # Attention model predictions │ └── test_predictions.txt # Format: input&lt;TAB&gt;prediction&lt;TAB&gt;target ├── predictions_vanilla/ # Vanilla model predictions │ └── test_predictions.txt ├── attention_train.py # Attention model training script (direct code) ├── vanilla_train.py # Vanilla model training script (direct code) └── README.md ``` </pre>
 
 ## Key Features
 - **Ready-to-Run Scripts**:
