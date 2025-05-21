@@ -1,4 +1,4 @@
-# Marathi-English Transliteration with Attention Mechanisms
+# DA6401 Assignment 03 - Marathi-English Transliteration with Attention Mechanisms
 
 ## Project Overview
 This project implements a sequence-to-sequence model with attention mechanisms for transliterating between Latin script (English) and Devanagari script (Marathi). The system handles character-level conversion with visualizations to interpret attention patterns.
@@ -26,7 +26,35 @@ Uses the [Dakshina Dataset](https://github.com/google-research-datasets/dakshina
 | `mr.translit.sampled.dev.tsv`   | 1,000   | Validation       |
 | `mr.translit.sampled.test.tsv`  | 1,000   | Testing          |
 
-Sample format:
 
-घर ghar 3
-मराठी marathi 2
+## Project Structure
+transliteration-project/
+├── notebooks/
+│ └── Transliteration_Analysis.ipynb # Complete training and analysis notebook
+├── predictions_attention/ # Attention model predictions
+│ └── test_predictions.txt # Format: input<TAB>prediction<TAB>target
+├── predictions_vanilla/ # Vanilla model predictions
+│ └── test_predictions.txt
+├── attention_train.py # Attention model training script (direct code)
+├── vanilla_train.py # Vanilla model training script (direct code)
+└── README.md
+
+## Key Features
+- **Ready-to-Run Scripts**:
+  - `vanilla_train.py`: Pre-configured seq2seq LSTM training
+  - `attention_train.py`: Pre-configured attention model training
+- **Complete Notebook**: Includes:
+  - Data loading and preprocessing
+  - Model training and evaluation
+  - Attention visualization
+  - Error analysis
+
+## Usage Instructions
+
+### Running Training Scripts
+```bash
+# Run vanilla model training
+python vanilla_train.py
+
+# Run attention model training
+python attention_train.py
