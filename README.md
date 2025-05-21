@@ -28,7 +28,7 @@ Uses the [Dakshina Dataset](https://github.com/google-research-datasets/dakshina
 
 
 ## Project Structure
-## Project Structure
+```
 transliteration-project/\
 ├── notebooks/\
  │└── da6401-a3.ipynb # Complete training and analysis notebook\
@@ -39,6 +39,7 @@ transliteration-project/\
 ├── attention_train.py # Attention model training script\
 ├── vanilla_train.py # Vanilla model training script\
 └── README.md
+```
 
 ## Key Features
 - **Ready-to-Run Scripts**:
@@ -59,3 +60,9 @@ python vanilla_train.py
 
 # Run attention model training
 python attention_train.py
+```
+
+Running the training scripts will start the sweeps on your Wandb Account.\
+You have to add your Wandb Key whereever mentioned in the code.\
+This will log necessary data and accuracies to Wandb, where you can visualize and analyze the model behaviour.
+
